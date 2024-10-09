@@ -1,0 +1,47 @@
+body {
+    /* ini background gambar */
+background: url(pe.png)bottom left no-repeat fixed,
+        url(pe.png)bottom right no-repeat fixed;
+    background-size: auto;
+    background-color: aquamarine;
+}
+
+ol li::marker{
+    color: aqua;
+}
+
+ul li::marker{
+    color: aqua;
+}
+
+table, 
+tr, 
+td, 
+th {
+    border-collapse: collapse;
+    text-align: center;
+}
+
+tr:hover {
+    background: aqua;
+}
+
+td,
+th {
+    width: 100px;
+}
+
+tr:nth-child(even) {
+    background: aqua;
+    opacity: 75%; 
+}
+
+tr:nth-child(odd) {
+    background: rgb(184, 241, 241);
+    opacity: 75%;
+}
+
+a.oke:link {
+    background: white;
+    padding: 5px 5px;
+}
